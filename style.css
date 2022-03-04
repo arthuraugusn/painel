@@ -8,3 +8,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+header{
+    height: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: chartreuse;
+    flex-grow: 1;
+}
+footer{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
