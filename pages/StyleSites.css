@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+}
+main{
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+footer{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
